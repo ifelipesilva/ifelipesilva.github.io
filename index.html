@@ -17,6 +17,9 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.className += ' js'
+    </script>
   </head>
   <body>
     <header class="header">
@@ -30,7 +33,7 @@
       </nav>
     </header>
 
-    <main class="introducao">
+    <main class="introducao js-scroll">
       <img src="/img/perfil.jpg" alt="lobo cinza" width="360" height="520" />
       <div>
         <h1>
@@ -42,7 +45,11 @@
       </div>
     </main>
 
-    <section class="experiencia" id="experiencia" aria-label="Experiencia">
+    <section
+      class="experiencia js-scroll"
+      id="experiencia"
+      aria-label="Experiencia"
+    >
       <h2 class="subtitulo">Experiência</h2>
       <div>
         <p class="experiencia-texto">
@@ -106,7 +113,7 @@
       </div>
     </section>
 
-    <section class="formacao" id="formacao" aria-label="formacao">
+    <section class="formacao js-scroll" id="formacao" aria-label="formacao">
       <div class="formacao-container">
         <h2 class="subtitulo">Formação</h2>
 
@@ -158,7 +165,7 @@
       </div>
     </section>
 
-    <footer class="footer" id="contato">
+    <footer class="footer js-scroll" id="contato">
       <div class="footer-container">
         <p class="footer-texto">
           Estou disponivel para novos projetos no momento. Entre em contato
